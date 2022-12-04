@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+@import 'material-icons/iconfont/material-icons.css';
+
+:root {
+    font-family: 'Inter', sans-serif;
+}
+
+@supports (font-variation-settings: normal) {
+    :root {
+        font-family: 'Inter var', sans-serif;
+    }
+}
+.profilePicture {
+    border-radius: 100%;
+    background-image: url('../../../assets/profile.png');
+    height: 5vh;
+    width: 5vh;
+    background-position: center;
+    background-size: cover;
+}
+
+

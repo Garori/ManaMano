@@ -1,0 +1,74 @@
+nav{
+    background-color: #676186;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+}
+
+#upperNavbar{
+    padding: 0 6vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    height: 10vh;
+}
+#perfilSearchArea{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#perfilArea{
+    margin-left: 3vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#lowerNavbar{
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+}
+.reticencias{
+    text-orientation: upright;
+}
+
+.newPostBtn{
+    width: 13vw;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-right-width: 0.1px;
+    border-right-color: #ffffff30;
+    border-right-style: solid;
+    border-top-width: 0.1px;
+    border-top-color: #ffffff30;
+    border-top-style: solid; */
+    /* padding: 2vw; */
+}
+.newPostBtn i{
+    border-style: solid;
+    border-color: white;
+    border-radius: 100%;
+    border-width: 1px;
+    color: white;
+}
+.aba{
+    width: 29vw;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.underline{
+    align-items: center;
+    border-bottom-color: white;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+}
+

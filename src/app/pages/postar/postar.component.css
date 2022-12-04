@@ -1,0 +1,48 @@
+section {
+    margin: 0 3vh;
+    padding: 2vh;
+    padding-right: 4vh;
+    background-color: #676186;
+    height: 74vh;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+form>*{
+    margin-bottom: 3vh;
+}
+label{
+    font-weight: bold;
+    color: white;
+}
+
+textarea{
+    resize: vertical;
+    min-height: 20vh;
+    background-color: #eeeeee;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+}
+
+input{
+    width: 100%;
+    background-color: #eeeeee;
+    box-sizing: border-box;
+    border: none;
+}
+button {
+    width: 33vw;
+    border-radius: 3vh;
+    background-color: #EF4035;
+    border-style: none;
+    color: white;
+    font-size: 0.8em;
+    height: 3.5vh;
+}
+#divSubmit{
+    display: flex;
+    justify-content: flex-end;
+}
