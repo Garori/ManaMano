@@ -1,0 +1,43 @@
+section {
+    padding: 0 6vw;
+}
+
+section>*{
+    margin-bottom: 5vh;;
+}
+.profilePicture {
+    padding: 0;
+    height: 20vh;
+    width: 20vh;
+    border-radius: 100vw;
+    border-color: #EF4035;
+    border-width: 0.5px;
+}
+
+#headerDiv{
+    padding-top: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#contato{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-right: 5vw;
+}
+#footerDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#postagensBTN{
+    border-radius: 3vh;
+    border-style: none;
+    color: white;
+    font-size: 0.8em;
+    height: 3.5vh;
+    background-color: #170E48 !important;
+}

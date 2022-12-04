@@ -5,6 +5,19 @@ nav{
     left: 0;
     width: 100%;
     color: white;
+    min-height: 18vh;
+}
+nav#navSecundaria{
+    padding-left: 6vw;
+    height: 7vh !important;
+    min-height: 0 !important;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav#navSecundaria>p{
+    margin-left: 5vw;
 }
 
 #upperNavbar{

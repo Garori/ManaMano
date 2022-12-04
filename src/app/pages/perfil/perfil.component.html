@@ -1,19 +1,20 @@
-
-<div class="card" *ngFor="let producao of producoes">
-    <div class="titleDiv">
-        <h3 style="margin: 0;">Título</h3>
+<section>
+    <div id="headerDiv">
+            <div class="profilePicture"></div>
+        <div id="contato">
+            <a href="https://wa.me/5521999999999">+55 (21) 9 9999-9999</a>
+            <p>E-mail</p>
+        </div>
     </div>
-    <div class="bodyDiv">
+    <div id="descricao">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pulvinar felis a leo eleifend dapibus. In in nibh non
         arcu ornare tempus in a quam. Sed nisi magna, pellentesque id porta ut, malesuada eget ante. Cras interdum velit risus,
         a maximus neque euismod vel. Phasellus et metus quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
         nec pellentesque urna. Maecenas elementum sed magna sit amet fermentum.</p>
     </div>
-    <div class="footerDiv">
-        <div class="autorDiv" routerLink="/perfil">
-            <div class="profilePicture"></div>
-            <p>Mariazinha da silva</p>
-        </div>
-            <button>Favoritar</button>
+    <div id="footerDiv">
+        <button id="postagensBTN" routerLink="/perfil-postagens">Ver todas as postagens</button>
+        
+        <button>Editar</button>
     </div>
-</div>
+</section>

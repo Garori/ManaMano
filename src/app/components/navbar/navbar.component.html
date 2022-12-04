@@ -1,11 +1,11 @@
-<nav>
+<nav *ngIf="router.url != '/perfil' or router.url != '/perfilPostagens';else outra_nav">
     <div id="upperNavbar">
             <!-- <a href="#" class="brand-logo">Logo Manamano</a> -->
-            <img src="../../../assets/logo.svg" style="height: 5vh; padding:0;">
+            <img src="./assets/logo.svg" style="height: 5vh; padding:0;">
         <div id="perfilSearchArea">
             <i class="material-icons">search</i>
             <div id="perfilArea">
-                <div class="profilePicture" style="height: 5vh;"></div> 
+                <div routerLink="/perfil" class="profilePicture" style="height: 5vh;"></div> 
                 <i class="material-icons">more_vert</i>
             </div>
         </div>
@@ -17,4 +17,11 @@
         <div class="aba" routerLink="/favoritos" routerLinkActive="underline"><p>Favoritos</p></div>
     </div>
 </nav>
-<div style="height: 18vh;"></div>
+<div *ngIf="router.url != '/perfil' or router.url != '/perfilPostagens'" style="height: 18vh;"></div>
+<ng-template #outra_nav>
+    <nav id="navSecundaria">
+        <i routerLink=".." class="material-icons">arrow_back</i>
+        <p>texto da página</p>
+    </nav>
+    <div style="height: 10vh;"></div>
+</ng-template>

@@ -11,6 +11,8 @@ import { CategoriasComponent } from './pages/categorias/categorias.component';
 import { CategoriaCardsComponent } from './components/categoria-cards/categoria-cards.component';
 import { FavoritosComponent } from './pages/favoritos/favoritos.component';
 import { PostarComponent } from './pages/postar/postar.component';
+import { PerfilComponent } from './pages/perfil/perfil.component';
+import { PerfilPostagensComponent } from './pages/perfil-postagens/perfil-postagens.component';
 // import { MatIconModule } from '@angular/material/icon';
 
 @NgModule({
@@ -23,6 +25,8 @@ import { PostarComponent } from './pages/postar/postar.component';
     CategoriaCardsComponent,
     FavoritosComponent,
     PostarComponent,
+    PerfilComponent,
+    PerfilPostagensComponent,
   ],
   imports: [
     BrowserModule,

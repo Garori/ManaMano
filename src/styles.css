@@ -12,11 +12,19 @@
 }
 .profilePicture {
     border-radius: 100%;
-    background-image: url('../../../assets/profile.png');
+    background-image: url('./assets/profile.png');
     height: 5vh;
     width: 5vh;
     background-position: center;
     background-size: cover;
 }
 
+button {
+    border-radius: 3vh;
+    background-color: #EF4035;
+    border-style: none;
+    color: white;
+    font-size: 0.8em;
+    height: 3.5vh;
+}
 
